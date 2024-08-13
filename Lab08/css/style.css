@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("https://img.freepik.com/free-photo/fuji-mountain-with-milky-way-night_335224-104.jpg?t=st=1723261749~exp=1723265349~hmac=f0784502c586561ffe32b7f1a6a1c9e21798442bb41f14b18890ea9b6b8ec4fa&w=1380");
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(158, 158, 158, 0.8);
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 450px;
+    max-width: 90%;
+}
+.btn {
+    background-color: #333;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 900;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #a8a3a3;
+}
